@@ -2,22 +2,16 @@
 <nav class="navbar navbar-expand-sm bg-light shadow-sm py-0">
   <div class="container-fluid px-4 ">
     <div class="d-flex align-items-center gap-3">
-      <button
-        class=" d-sm-block d-sm-none  border-0 bg-transparent"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
-        <span style="font-size: 1.6rem; line-height: 1; color: green"
-          >&#8942;</span
-        >
+      <button class=" d-sm-block d-sm-none  border-0 bg-transparent" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav">
+        <span style="font-size: 1.6rem; line-height: 1; color: green">&#8942;</span>
       </button>
-      <a class="navbar-brand m-0">
-        <img src="/logoVU.png" style="width: 150px; height: auto" />
+      <a class="navbar-brand ms-5 mb-2">
+        <img src="/logoVU.png" style="width: 90px; height: auto" />
       </a>
     </div>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="list-unstyled  gap-3  align-items-center d-sm-inline-flex">
+    <div class="collapse navbar-collapse  justify-content-end " id="navbarNav">
+      <ul class="list-unstyled   mt-3 align-items-center fw-medium gap-3 d-sm-inline-flex">
         <li class=""><a href="#" class="nav-link"> Inicio </a></li>
         <li class="nav-item"><a href="#" class="nav-link"> ¿Que es VU? </a></li>
         <li class="nav-item">
@@ -26,9 +20,14 @@
         <li class=""><a href="#" class="nav-link"> Mapa </a></li>
         <li class=""><a href="#" class="nav-link text-dark"> Noticias </a></li>
       </ul>
-      <div class="m-4 mt-2">
-        <a href="">
-          <img src="/logoVU.png" alt="" style="width: 60px; height: auto" />
+      <div class="ms-3 ">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person-circle " fill="#70ce68"
+            style=" width: 30; height: auto;" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+            <path fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+          </svg>
         </a>
       </div>
     </div>
@@ -36,26 +35,25 @@
 </nav>
 
 <!-- Iniio de seccion hero aun no terminado-->
-<section class="container py-5 ">
+<section class="container-fluid py-5 px-5">
   <div class="row align-items-start">
-    <div class="col-lg-6 d-flex flex-column justify-content-center ">
-      <h1 class="display-4 fw-bold mb-4">Visor Urbano Jalisco</h1>
-      <p class="lead mb-5 text-secondary">
-        Aquí podrás conocer los requisitos aplicables para abrir tu negocio y
+    <div class="col-lg-6 flex-column justify-content-center">
+      <h1 class="display-4 fw-medium mb-5">Visor Urbano Jalisco</h1>
+      <p class="lead mb-5 text-secondary fw-semibold">
+        Aquí podrás conocer los requisitos aplicables para abrir <br>tu negocio y
         tramitar tu licencia totalmente en línea.
       </p>
       <div>
-        <button
-          class=" btn btn-success  border-0 rounded-pill px-5 w-75 btn-lg shadow"
-          type="button"
-          style=" background-color: #70ce68"
-        >
+        <button class="btn btn-success border-0 rounded-pill px-5 w-50 btn-lg shadow" type="button"
+          style="background-color: #70ce68">
           Conoce los requisitos
         </button>
       </div>
     </div>
-    <div class=" col-lg-6 mt-5 mt-lg-0 text-center">
-        <img src="/banner_home.png" class="img-fluid" alt="">
+
+    <div class="col-lg-6 mt-5 mt-lg-0 text-center">
+      <img src="/banner_home.png" class="img-fluid" style="max-width: 664px; height: auto;" alt="Banner Visor Urbano">
     </div>
+
   </div>
 </section>
